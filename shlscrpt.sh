@@ -1,7 +1,2 @@
-#!/bin/bash
-
-# Define a timestamp function
-timestamp() {
-  date +"%T"
-}
-echo ("change recorded at: " + timestamp) >> log.txt
+ #!/bin/bash
+echo "Change recorded at $(date)" >> /var/www/html/Exercise2/log
